@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.moonCalendar .prev_button_container {
+  text-align: left; }
+.moonCalendar .next_button_container {
+  text-align: right; }
+.moonCalendar .year {
+  font-size: 30pt;
+  width: 3em;
+  border: 0;
+  margin-left: 0.5em; }
+.moonCalendar .month {
+  font-size: 30pt;
+  border: 0;
+  /* プルダウンの矢印を消す */
+  -webkit-appearance: none;
+  /* ベンダープレフィックス(Google Chrome、Safari用) */
+  -moz-appearance: none;
+  /* ベンダープレフィックス(Firefox用) */
+  appearance: none;
+  /* 標準のスタイルを無効にする */ }
+  .moonCalendar .month option {
+    font-size: 12pt; }
+.moonCalendar .date {
+  width: 100px;
+  height: 60px;
+  font-size: 12pt;
+  border: 1px solid #000000;
+  margin: 0; }
+  .moonCalendar .date .day {
+    display: block;
+    position: absolute; }
+  .moonCalendar .date .moonAge {
+    display: block;
+    text-align: center;
+    margin-left: 15px;
+    font-size: 30pt;
+    font-family: "Segoe UI Emoji"; }
+.moonCalendar .empty-date {
+  border-color: #808080; }
+.moonCalendar .sun {
+  color: #ff0000; }
+.moonCalendar .sat {
+  color: #0000d0; }
+
+/*# sourceMappingURL=MoonCalendar.css.map */
